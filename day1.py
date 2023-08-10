@@ -1,5 +1,6 @@
 #string is a sequence of characters
 #it is denoted by single quotes double quotes or even triple quotes
+#string are immutable
 '''s='chennai'
 print(s)
 print(type(s))
