@@ -13,4 +13,14 @@ def factors(n):
         if n%i==0:
             factorslist=factorslist+[i]
     return(factorslist)
-print(factors(8))            
+print(factors(8))   
+
+'''def primeupto(n):
+    primelist=[]
+    for i in range(1,n+1):
+        if isprime(i):
+            primelist=primelist+[i]
+    return(primelist)
+print(primeupto(8))
+
+'''
