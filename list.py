@@ -2,6 +2,7 @@
 #DATA STRUCTURE : A particular way of organising data in a computer
 #LIST : a collection allows us to put many values in a single variable
 #list is denoted by [] brackets
+#list is mutable
 
 friends=['aditya','kumar','sinha']
 print(friends)
@@ -16,4 +17,11 @@ friends=['aditya','kumar','sinha']
 for friend in friends:
     print('happy new year:',friend)
 print('done!')    
+
+
+friends=['aditya','kumar','sinha']
+print(friends[1])
+friends[2]='prince'
+print(friends)
+print(len(friends))
 
